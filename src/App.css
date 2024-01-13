@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  text-align: center;
+}
+
+input::placeholder {
+  font-weight: lighter;
+  text-align: center;
+  color: bisque;
+}
+
+input:focus {
+  outline: white
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.generate-button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem
+}
+
+.generate-button:hover {
+  cursor: pointer;
+  background-color: azure;
+  color: black;
+}
+
+.card-container {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.card-container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-container p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card-container b {
+  color: #007bff;
+}
+
+
+.clear-container {
+  display: flex;
+  justify-content: center;
+}
+
+.clear-button:hover {
+  cursor: pointer;
+  background-color: azure;
+  color: black;
+}
+
+.clear-button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+}
